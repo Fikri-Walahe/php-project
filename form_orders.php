@@ -29,9 +29,9 @@
     <br>
         Tipe Kamar :
         <select name="tipe_kamar">Tipe Kamar
+        <option name="small" value="small">Small Room</option>
         <option name="deluxe" value="Deluxe">Deluxe</option>
         <option name="superior" value="Superior">Superior</option>
-        <option name="president" value="President">President</option>
         </select>
         <br>
         <br>
