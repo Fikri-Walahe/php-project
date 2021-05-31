@@ -5,9 +5,9 @@ $namalengkap = $_POST['nama_lgkp'];
 $noidentitas = $_POST['identitas'];
 $tipekamar = $_POST['tipe_kamar'];
 $durasitinggal = $_POST['wktu_menginap'];
+$smallroom = 150000;
 $deluxe = 300000;
 $superior = 650000;
-$president = 1000000;
 ?>
 
 <!DOCTYPE html>
@@ -36,8 +36,8 @@ $president = 1000000;
             }elseif($tipekamar ==    "Superior"){
                $total_biaya = $superior * $durasitinggal;
                 echo "Rp. &nbsp".$total_biaya;
-            }elseif($tipekamar ==    "President"){
-               $total_biaya = $president * $durasitinggal;
+            }elseif($tipekamar ==    "Small Room"){
+               $total_biaya = $smallroom * $durasitinggal;
                 echo "Rp. &nbsp".$total_biaya;
             };
             
